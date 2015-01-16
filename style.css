@@ -1,0 +1,158 @@
+/*////////////////////////////////////////
+/      MATHEW HARRISON                  /
+/TWITTER: @dreamingUpCode              /
+/GitHub: dreamingUpCode               /
+////////////////////////////////////*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+html { 
+	background: url(topBG.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.container {
+	width: 100%;
+	
+}
+nav {
+	width: 100%;
+	height: 75px;
+	background-color: #414242;
+	position: fixed;
+	opacity: 0.8;
+	
+}
+#brand {
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	color: white;
+}
+#rightNav {
+	float: right;
+	color: white;
+	font-size: 30px;
+	
+
+}
+li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+	
+	
+}
+ul {
+	padding-top: 20px;
+	padding-right: 10px;
+	
+	
+}
+.clear {
+	clear: both;
+}
+/* Start nav Content Boxes */
+#introContent {
+	height: 300px;
+	width: 600px;
+	background-color: rgba(237, 237, 237, 0.8 );
+	border-radius: 3px;
+	margin-top: 300px;
+	margin-left: 500px;
+	z-index: 2;
+
+}
+#whatContent {
+	height: 500px;
+	width: 600px;
+	background-color: rgba(237, 237, 237, 0.8 );
+	border-radius: 3px;
+	margin-top: 300px;
+	margin-left: 500px;
+	z-index: 2;
+}
+#introText {
+	font-family: 'Stalemate', cursive;
+	font-size: 5em;
+	text-align: center;
+	z-index: 2;
+}
+#introParagraph {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+	z-index: 2;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-0-animation-delay: 1s;
+}
+#logo {
+	 -webkit-animation-duration: 1.2s;
+	 -moz-animation-duration: 1.2s;
+	 -o-animation-duration: 1.2s;
+	 -webkit-transition: 0.8s;
+	 -moz-transition: 0.8s;
+	 -o-transition: 0.8s;
+	 	
+}
+
+
+
+a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.8s;
+	 -moz-transition: 0.8s;
+	 -o-transition: 0.8s;
+}
+a:hover {
+	color: #0092D1;
+	-webkit-transition: 0.8s;
+	 -moz-transition: 0.8s;
+	 -o-transition: 0.8s;
+
+}
+#logo:hover {
+	color: #0092D1;
+	-webkit-transition: 0.8s;
+	 -moz-transition: 0.8s;
+	 -o-transition: 0.8s;
+}
+#whatLi {
+	display: block;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	line-height: 30px;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+}
+h4 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-o-animation-delay: 3s;
+}
+h1 {
+	 -webkit-animation-duration: 1.2s;
+	 -moz-animation-duration: 1.2s;
+	 -o-animation-duration: 1.2s;
+	 -webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	 
+}
+
